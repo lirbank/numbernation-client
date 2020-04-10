@@ -15,11 +15,11 @@
     "styled-components": "5.1.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.18",
-    "@storybook/addon-links": "^5.3.18",
-    "@storybook/addons": "^5.3.18",
-    "@storybook/preset-create-react-app": "^2.1.1",
-    "@storybook/react": "^5.3.18",
+    "@storybook/addon-actions": "5.3.18",
+    "@storybook/addon-links": "5.3.18",
+    "@storybook/addons": "5.3.18",
+    "@storybook/preset-create-react-app": "2.1.1",
+    "@storybook/react": "5.3.18",
     "@types/react": "16.9.34",
     "@types/react-dom": "16.9.6",
     "@types/styled-components": "5.0.1",
