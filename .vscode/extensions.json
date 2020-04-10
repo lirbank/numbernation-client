@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "apollographql.vscode-apollo",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "jpoissonnier.vscode-styled-components",
+    "mikestead.dotenv",
+    "stkb.rewrap",
+    "wmaurer.change-case"
+  ]
+}
