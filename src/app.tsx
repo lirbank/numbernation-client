@@ -26,8 +26,8 @@ const Input = styled.input`
 const SideBar = styled.div<{ dock: "left" | "right" }>`
   background-color: ${colors.darkBlue};
   position: fixed;
-  left: ${props => (props.dock === "left" ? "48px" : "auto")};
-  right: ${props => (props.dock === "left" ? "auto" : "0")};
+  left: ${(props) => (props.dock === "left" ? "48px" : "auto")};
+  right: ${(props) => (props.dock === "left" ? "auto" : "0")};
   top: 0;
   bottom: 0;
   width: 240px;
@@ -70,7 +70,7 @@ export default function App() {
           <Input />
           <Input />
         </Row>
-        {accounts.map(account => (
+        {accounts.map((account) => (
           <div>{account.name}</div>
         ))}
       </Main>

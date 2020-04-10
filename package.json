@@ -9,7 +9,6 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
-    "@types/styled-components": "5.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1",
@@ -18,13 +17,17 @@
   "devDependencies": {
     "@types/react": "16.9.34",
     "@types/react-dom": "16.9.6",
+    "@types/styled-components": "5.0.1",
+    "prettier": "2.0.4",
     "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write"
   },
   "browserslist": [
     ">0.2%",
