@@ -1,26 +1,13 @@
-import * as React from "react";
+import React from "react";
 import styled from "styled-components";
 import { colors } from "./colors";
 import { GlobalStyle } from "./global-style";
 import { accounts } from "./data";
+import { Input } from "./input";
 
 const Row = styled.div`
   /* background-color: orange; */
   display: flex;
-`;
-
-const Input = styled.input`
-  /* background-color: green; */
-
-  outline: 0;
-  border: none;
-  display: block;
-  height: 35px;
-  /* border-top: 1px solid black; */
-  border-bottom: 1px solid black;
-  box-sizing: border-box;
-  width: 50%;
-  background-color: transparent;
 `;
 
 const SideBar = styled.div<{ dock: "left" | "right" }>`
