@@ -5,8 +5,8 @@ import { BaseInput } from "./input";
 
 const Combo = styled.div`
   position: relative;
-  width: 50%;
-  width: 200px;
+  width: 100%;
+  /* width: 200px; */
   background-color: #ddd;
 `;
 
